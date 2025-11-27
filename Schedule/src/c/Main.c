@@ -1,5 +1,14 @@
 #include <pebble.h>
 
+// Define message keys manually
+#define MESSAGE_KEY_Day 0
+#define MESSAGE_KEY_Period 1
+#define MESSAGE_KEY_ClassName 2
+
+static Window *window;
+static TextLayer *time_layer;
+static TextLayer *schedule_layer;
+
 static Window *window;
 static TextLayer *time_layer;
 static TextLayer *schedule_layer;

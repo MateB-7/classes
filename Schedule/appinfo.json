@@ -1,0 +1,33 @@
+{
+  "uuid": "dcb0f729-6f8e-4363-91e9-4cafe4e77e0b",
+  "shortName": "Schedule",
+  "longName": "Class Schedule",
+  "companyName": "Your Name",
+  "versionLabel": "1.0",
+  "sdkVersion": "3",
+  "targetPlatforms": ["aplite", "basalt", "chalk"],
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "Day": 0,
+    "Period": 1,
+    "ClassName": 2
+  },
+  "capabilities": ["configurable"],
+  "resources": {
+    "media": []
+  }
+}
+```
+
+**Your folder structure should be:**
+```
+Schedule/
+├── appinfo.json          ← CREATE THIS FILE
+├── package.json
+├── wscript
+└── src/
+    ├── main.c (or Main.c)
+    └── js/
+        └── pebble-js-app.js
